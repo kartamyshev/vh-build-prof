@@ -1,8 +1,8 @@
 <section id="contact" class="contact">
   <div class="contact-grid">
     <div class="contact-info">
-      <h2>Есть проект?<br>Обсудим.</h2>
-      <p>Оставьте заявку, и мы свяжемся с вами в ближайшее время.</p>
+      <h2 data-i18n="contact.heading">Есть проект?<br>Обсудим.</h2>
+      <p data-i18n="contact.subheading">Оставьте заявку, и мы свяжемся с вами в ближайшее время.</p>
       <div class="contact-row">
         <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg>
         +31 6 86341306
@@ -13,19 +13,19 @@
       </div>
       <div class="contact-row">
         <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        Амстердам, Нидерланды
+        Amsterdam, Nederland
       </div>
       <a href="https://wa.me/31686341306" target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
         <svg viewBox="0 0 24 24"><path d="M17.6 6.3A7.85 7.85 0 0012 4a7.94 7.94 0 00-6.9 11.9L4 20l4.2-1.1a7.93 7.93 0 003.8 1h.01A7.94 7.94 0 0020 12a7.85 7.85 0 00-2.4-5.7zM12 18.5a6.55 6.55 0 01-3.4-.9l-.2-.1-2.5.7.7-2.4-.2-.3A6.6 6.6 0 1118.6 12 6.6 6.6 0 0112 18.5zm3.6-4.9c-.2-.1-1.2-.6-1.4-.6s-.3-.1-.5.1-.5.6-.6.7-.2.2-.4.1a5.5 5.5 0 01-1.6-1 6.1 6.1 0 01-1.1-1.4c-.1-.2 0-.3.1-.4l.3-.4a1.4 1.4 0 00.2-.3.4.4 0 000-.4c0-.1-.5-1.1-.6-1.5s-.3-.4-.5-.4h-.4a.7.7 0 00-.5.2 2 2 0 00-.6 1.5 3.5 3.5 0 00.7 1.8 7.9 7.9 0 003 2.7c.4.2.7.3 1 .4a2.4 2.4 0 001.1.1 1.8 1.8 0 001.2-.8 1.5 1.5 0 00.1-.8c0-.1-.2-.2-.4-.3z"/></svg>
-        Написать в WhatsApp
+        <span data-i18n="contact.whatsapp">Написать в WhatsApp</span>
       </a>
     </div>
     <form action="https://formspree.io/f/xzdoalel" class="contact-form" method="POST">
-      <input type="text" name="name" placeholder="Имя" required>
-      <input type="tel" name="tel" placeholder="Телефон">
-      <input type="email" name="email" placeholder="Email">
-      <textarea name="message" placeholder="Расскажите о вашем проекте"></textarea>
-      <button type="submit" class="btn btn-primary">Отправить</button>
+      <input type="text"  name="name"    data-i18n-placeholder="contact.name"    placeholder="Имя"      required>
+      <input type="tel"   name="tel"     data-i18n-placeholder="contact.phone"   placeholder="Телефон">
+      <input type="email" name="email"   data-i18n-placeholder="contact.email"   placeholder="Email">
+      <textarea           name="message" data-i18n-placeholder="contact.message" placeholder="Расскажите о вашем проекте"></textarea>
+      <button type="submit" class="btn btn-primary" data-i18n="contact.submit">Отправить</button>
     </form>
     <div class="contact-image"></div>
   </div>

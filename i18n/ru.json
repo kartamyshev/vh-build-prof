@@ -1,0 +1,32 @@
+{
+  "nav.services": "Услуги",
+  "nav.projects": "Проекты",
+  "nav.pricing": "Цены",
+  "nav.about": "О нас",
+  "nav.contact": "Контакты",
+
+  "hero.title": "Строительство<br>и ремонт под ключ",
+  "hero.subtitle": "Качество. Прозрачность. Сроки.",
+  "hero.cta_primary": "Получить смету",
+  "hero.cta_secondary": "Смотреть проекты",
+
+  "contact.cta_btn": "Получить смету",
+  "contact.whatsapp": "Написать в WhatsApp",
+  "contact.heading": "Есть проект?<br>Обсудим.",
+  "contact.subheading": "Оставьте заявку, и мы свяжемся с вами в ближайшее время.",
+  "contact.name": "Имя",
+  "contact.phone": "Телефон",
+  "contact.email": "Email",
+  "contact.message": "Расскажите о вашем проекте",
+  "contact.submit": "Отправить",
+
+  "why_us.title": "Почему нас выбирают",
+  "why_us.reason_1": "Прозрачная<br>смета",
+  "why_us.reason_2": "Работаем<br>поэтапно",
+  "why_us.reason_3": "Фотоотчеты<br>процесса",
+  "why_us.reason_4": "Контроль<br>качества",
+  "why_us.reason_5": "Соблюдение<br>сроков",
+  
+  "footer.tagline": "Строительство и ремонт",
+  "footer.rights": "Все права защищены"
+}

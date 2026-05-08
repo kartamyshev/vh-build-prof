@@ -1,92 +1,82 @@
-import { ProjectDetail } from './elements/project-detail-element.js'
+import { LangSelector } from './elements/lang-selector.js';
+import { ProjectDetail } from './elements/project-detail-element.js';
+import { initI18n, onLangChange, applyTranslations } from './i18n/i18n.js';
 
-class NavBar extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/navbar.html');
-        this.innerHTML = await res.text();
-    }
+await initI18n();
+
+class TranslationElement extends HTMLElement {
+  get partialUrl() { return ''; }
+
+  async connectedCallback() {
+    await this._load();
+    this._unsub = onLangChange(() => applyTranslations(this));
+  }
+
+  disconnectedCallback() {
+    if (this._unsub) this._unsub();
+  }
+
+  async _load() {
+    const res = await fetch(this.partialUrl);
+    this.innerHTML = await res.text();
+    applyTranslations(this);
+  }
 }
 
-class FooterMenu extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/footer-menu.html');
-        this.innerHTML = await res.text();
-    }
+class AppHeader extends TranslationElement {
+  get partialUrl() { return './partials/app-header.html'; }
 }
 
-class ContactForm extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/contact-form.html');
-        this.innerHTML = await res.text();
-    }
+class NavBar extends TranslationElement {
+  get partialUrl() { return './partials/navbar.html'; }
 }
 
-class OurServices extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/our-services.html');
-        this.innerHTML = await res.text();
-    }
+class FooterMenu extends TranslationElement {
+  get partialUrl() { return './partials/footer-menu.html'; }
 }
 
-class OurPrices extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/our-prices.html');
-        this.innerHTML = await res.text();
-    }
+class AppFooter extends TranslationElement {
+  get partialUrl() { return './partials/app-footer.html'; }
 }
 
-class HeroBlock extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/hero-block.html');
-        this.innerHTML = await res.text();
-    }
+class HeroBlock extends TranslationElement {
+  get partialUrl() { return './partials/hero-block.html'; }
 }
 
-class OurTestimonials extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/our-testimonials.html');
-        this.innerHTML = await res.text();
-    }
+class ContactForm extends TranslationElement {
+  get partialUrl() { return './partials/contact-form.html'; }
 }
 
-class WhyUs extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/why-us.html');
-        this.innerHTML = await res.text();
-    }
+class OurServices extends TranslationElement {
+  get partialUrl() { return './partials/our-services.html'; }
 }
 
-class OurProjects extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/our-projects.html');
-        this.innerHTML = await res.text();
-    }
+class OurPrices extends TranslationElement {
+  get partialUrl() { return './partials/our-prices.html'; }
 }
 
-class AppHeader extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/app-header.html');
-        this.innerHTML = await res.text();
-    }
+class OurTestimonials extends TranslationElement {
+  get partialUrl() { return './partials/our-testimonials.html'; }
 }
 
-class AppFooter extends HTMLElement {
-    async connectedCallback() {
-        const res = await fetch('./partials/app-footer.html');
-        this.innerHTML = await res.text();
-    }
+class WhyUs extends TranslationElement {
+  get partialUrl() { return './partials/why-us.html'; }
 }
 
+class OurProjects extends TranslationElement {
+  get partialUrl() { return './partials/our-projects.html'; }
+}
 
-customElements.define('footer-menu', FooterMenu);
-customElements.define('nav-bar', NavBar);
-customElements.define('contact-form', ContactForm);
-customElements.define('our-services', OurServices);
-customElements.define('our-prices', OurPrices);
-customElements.define('hero-block', HeroBlock);
+customElements.define('lang-selector',    LangSelector);
+customElements.define('app-header',       AppHeader);
+customElements.define('nav-bar',          NavBar);
+customElements.define('footer-menu',      FooterMenu);
+customElements.define('app-footer',       AppFooter);
+customElements.define('hero-block',       HeroBlock);
+customElements.define('contact-form',     ContactForm);
+customElements.define('our-services',     OurServices);
+customElements.define('our-prices',       OurPrices);
 customElements.define('our-testimonials', OurTestimonials);
-customElements.define('why-us', WhyUs);
-customElements.define('our-projects', OurProjects);
-customElements.define('project-detail', ProjectDetail);
-customElements.define('app-header', AppHeader);
-customElements.define('app-footer', AppFooter);
+customElements.define('why-us',           WhyUs);
+customElements.define('our-projects',     OurProjects);
+customElements.define('project-detail',   ProjectDetail);
