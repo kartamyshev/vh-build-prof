@@ -20,11 +20,11 @@
         Написать в WhatsApp
       </a>
     </div>
-    <form class="contact-form" onsubmit="event.preventDefault(); alert('Спасибо! Мы свяжемся с вами.');">
-      <input type="text" placeholder="Имя" required>
-      <input type="tel" placeholder="Телефон" required>
-      <input type="email" placeholder="Email">
-      <textarea placeholder="Расскажите о вашем проекте"></textarea>
+    <form action="https://formspree.io/f/xzdoalel" class="contact-form" method="POST">
+      <input type="text" name="name" placeholder="Имя" required>
+      <input type="tel" name="tel" placeholder="Телефон">
+      <input type="email" name="email" placeholder="Email">
+      <textarea name="message" placeholder="Расскажите о вашем проекте"></textarea>
       <button type="submit" class="btn btn-primary">Отправить</button>
     </form>
     <div class="contact-image"></div>
