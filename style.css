@@ -66,7 +66,7 @@
 
   .logo-icon svg { width: 22px; height: 22px; }
 
-  .logo-text { line-height: 1.1; }
+  .logo-text { line-height: 1.1; text-decoration: none; color: inherit; }
   .logo-text .brand {
     font-weight: 700;
     font-size: 14px;
