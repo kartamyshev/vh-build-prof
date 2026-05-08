@@ -61,6 +61,26 @@ class OurProjects extends HTMLElement {
     }
 }
 
+class ProjectDetail extends HTMLElement {
+    async connectedCallback() {
+        const res = await fetch('./partials/project-detail.html');
+        this.innerHTML = await res.text();
+    }
+}
+
+class AppHeader extends HTMLElement {
+    async connectedCallback() {
+        const res = await fetch('./partials/app-header.html');
+        this.innerHTML = await res.text();
+    }
+}
+
+class AppFooter extends HTMLElement {
+    async connectedCallback() {
+        const res = await fetch('./partials/app-footer.html');
+        this.innerHTML = await res.text();
+    }
+}
 
 
 customElements.define('footer-menu', FooterMenu);
@@ -72,3 +92,6 @@ customElements.define('hero-block', HeroBlock);
 customElements.define('our-testimonials', OurTestimonials);
 customElements.define('why-us', WhyUs);
 customElements.define('our-projects', OurProjects);
+customElements.define('project-detail', ProjectDetail);
+customElements.define('app-header', AppHeader);
+customElements.define('app-footer', AppFooter);
