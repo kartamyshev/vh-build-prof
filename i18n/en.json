@@ -49,6 +49,18 @@
   "why_us.reason_4": "Quality<br>control",
   "why_us.reason_5": "On-time<br>delivery",
 
+  "services.title": "Our services",
+  "services.1.title": "Turnkey renovation",
+  "services.1.desc": "Full cycle from demolition to finishing",
+  "services.2.title": "Design<br>and drawings",
+  "services.2.desc": "Architectural solutions and technical documentation",
+  "services.3.title": "Construction",
+  "services.3.desc": "We build houses and extensions of any complexity",
+  "services.4.title": "Technical supervision",
+  "services.4.desc": "Quality control at every stage of construction",
+  "services.5.title": "Permits<br>and documentation",
+  "services.5.desc": "Assistance with obtaining permits and approvals",
+
   "testimonials.title": "Client reviews",
   "testimonials.1.short_text": "Great team! Everything done on time and without any hassle. Highly recommend!",
   "testimonials.1.author": "Maria, Amsterdam",

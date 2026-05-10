@@ -49,6 +49,18 @@
   "why_us.reason_4": "Kwaliteits-<br>controle",
   "why_us.reason_5": "Op tijd<br>opgeleverd",
 
+  "services.title": "Onze diensten",
+  "services.1.title": "Renovatie op maat",
+  "services.1.desc": "Volledige uitvoering van sloop tot afwerking",
+  "services.2.title": "Ontwerp<br>en tekeningen",
+  "services.2.desc": "Architectonische oplossingen en technische documentatie",
+  "services.3.title": "Nieuwbouw",
+  "services.3.desc": "Wij bouwen huizen en aanbouwen van elke complexiteit",
+  "services.4.title": "Technisch toezicht",
+  "services.4.desc": "Kwaliteitscontrole in alle fasen van de bouw",
+  "services.5.title": "Vergunningen<br>en documentatie",
+  "services.5.desc": "Hulp bij het verkrijgen van vergunningen en goedkeuringen",
+
   "testimonials.title": "Klantbeoordelingen",
   "testimonials.1.short_text": "Geweldig team! Alles op tijd gedaan en zonder problemen. Aanrader!",
   "testimonials.1.author": "Maria, Amsterdam",
