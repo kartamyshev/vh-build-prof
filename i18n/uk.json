@@ -4,10 +4,34 @@
   "nav.pricing": "Ціни",
   "nav.about": "Про нас",
   "nav.contact": "Контакти",
+
   "hero.title": "Будівництво<br>та ремонт під ключ",
   "hero.subtitle": "Якість. Прозорість. Терміни.",
   "hero.cta_primary": "Отримати кошторис",
   "hero.cta_secondary": "Дивитись проєкти",
+
+  "stat.item_1": "<strong>15+ років</strong><span>досвіду</span>",
+  "stat.item_2": "<strong>100+ проєктів</strong><span>виконано</span>",
+  "stat.item_3": "<strong>Працюємо</strong><span>за договором</span>",
+
+  "prices.title": "Орієнтовні ціни",
+  "prices.price_1.title": "Консультація",
+  "prices.price_2.title": "Дизайн / креслення",
+  "prices.price_3.title": "Ремонт ванної",
+  "prices.price_4.title": "Повний ремонт",
+  "prices.price_5.title": "Будівництво будинку",
+  "prices.cta": "Отримати точний кошторис",
+
+  "projects.title": "Наші проєкти",
+  "projects.show": "Дивитись проєкт →",
+  "projects.project_1.title": "Квартира в Амстердамі",
+  "projects.project_2.title": "Приватний будинок у Хілверсюмі",
+  "projects.project_3.title": "Реконструкція вілли",
+  "projects.project_4.title": "Офіс у Роттердамі",
+  "projects.category_1": "Ремонт під ключ",
+  "projects.category_2": "Будівництво",
+  "projects.category_3": "Реконструкція",
+
   "contact.cta_btn": "Отримати кошторис",
   "contact.whatsapp": "Написати у WhatsApp",
   "contact.heading": "Є проєкт?<br>Обговоримо.",
@@ -17,13 +41,14 @@
   "contact.email": "Email",
   "contact.message": "Розкажіть про ваш проєкт",
   "contact.submit": "Надіслати",
-  "footer.tagline": "Будівництво та ремонт",
-  "footer.rights": "Всі права захищені",
-  
-  "why_us.title": "Чому нас вибирають",
+
+  "why_us.title": "Чому обирають нас",
   "why_us.reason_1": "Прозорий<br>кошторис",
   "why_us.reason_2": "Працюємо<br>поетапно",
   "why_us.reason_3": "Фотозвіти<br>процесу",
   "why_us.reason_4": "Контроль<br>якості",
-  "why_us.reason_5": "Дотримання<br>термінів"
+  "why_us.reason_5": "Дотримання<br>термінів",
+
+  "footer.tagline": "Будівництво та ремонт",
+  "footer.rights": "Всі права захищені"
 }

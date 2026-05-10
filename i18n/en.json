@@ -4,10 +4,34 @@
   "nav.pricing": "Pricing",
   "nav.about": "About",
   "nav.contact": "Contact",
+
   "hero.title": "Construction &amp;<br>renovation turnkey",
   "hero.subtitle": "Quality. Transparency. On time.",
   "hero.cta_primary": "Get a quote",
   "hero.cta_secondary": "View projects",
+
+  "stat.item_1": "<strong>15+ years</strong><span>of experience</span>",
+  "stat.item_2": "<strong>100+ projects</strong><span>completed</span>",
+  "stat.item_3": "<strong>We work</strong><span>by contract</span>",
+
+  "prices.title": "Approximate pricing",
+  "prices.price_1.title": "Consultation",
+  "prices.price_2.title": "Design / drawings",
+  "prices.price_3.title": "Bathroom renovation",
+  "prices.price_4.title": "Full renovation",
+  "prices.price_5.title": "House construction",
+  "prices.cta": "Get an exact quote",
+
+  "projects.title": "Our projects",
+  "projects.show": "View project →",
+  "projects.project_1.title": "Apartment in Amsterdam",
+  "projects.project_2.title": "Private house in Hilversum",
+  "projects.project_3.title": "Villa reconstruction",
+  "projects.project_4.title": "Office in Rotterdam",
+  "projects.category_1": "Turnkey renovation",
+  "projects.category_2": "Construction",
+  "projects.category_3": "Reconstruction",
+
   "contact.cta_btn": "Get a quote",
   "contact.whatsapp": "Message on WhatsApp",
   "contact.heading": "Got a project?<br>Let's talk.",
@@ -17,13 +41,14 @@
   "contact.email": "Email",
   "contact.message": "Tell us about your project",
   "contact.submit": "Send",
-  "footer.tagline": "Construction & renovation",
-  "footer.rights": "All rights reserved",
 
   "why_us.title": "Why choose us",
   "why_us.reason_1": "Transparent<br>estimate",
   "why_us.reason_2": "Stage-by-stage<br>workflow",
   "why_us.reason_3": "Photo updates<br>of progress",
   "why_us.reason_4": "Quality<br>control",
-  "why_us.reason_5": "On-time<br>delivery"
+  "why_us.reason_5": "On-time<br>delivery",
+
+  "footer.tagline": "Construction & renovation",
+  "footer.rights": "All rights reserved"
 }

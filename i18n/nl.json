@@ -4,10 +4,34 @@
   "nav.pricing": "Prijzen",
   "nav.about": "Over ons",
   "nav.contact": "Contact",
+
   "hero.title": "Bouw &amp; renovatie<br>op maat",
   "hero.subtitle": "Kwaliteit. Transparantie. Op tijd.",
   "hero.cta_primary": "Offerte aanvragen",
   "hero.cta_secondary": "Bekijk projecten",
+
+  "stat.item_1": "<strong>15+ jaar</strong><span>ervaring</span>",
+  "stat.item_2": "<strong>100+ projecten</strong><span>afgerond</span>",
+  "stat.item_3": "<strong>Werken</strong><span>op contract</span>",
+
+  "prices.title": "Indicatieve prijzen",
+  "prices.price_1.title": "Adviesgesprek",
+  "prices.price_2.title": "Ontwerp / tekeningen",
+  "prices.price_3.title": "Badkamerrenovatie",
+  "prices.price_4.title": "Volledige renovatie",
+  "prices.price_5.title": "Woningbouw",
+  "prices.cta": "Vraag een exacte offerte aan",
+
+  "projects.title": "Onze projecten",
+  "projects.show": "Bekijk project →",
+  "projects.project_1.title": "Appartement in Amsterdam",
+  "projects.project_2.title": "Woonhuis in Hilversum",
+  "projects.project_3.title": "Verbouwing villa",
+  "projects.project_4.title": "Kantoor in Rotterdam",
+  "projects.category_1": "Renovatie op maat",
+  "projects.category_2": "Nieuwbouw",
+  "projects.category_3": "Verbouwing",
+
   "contact.cta_btn": "Offerte aanvragen",
   "contact.whatsapp": "Stuur een WhatsApp",
   "contact.heading": "Een project?<br>Laten we praten.",
@@ -17,13 +41,14 @@
   "contact.email": "E-mail",
   "contact.message": "Vertel ons over uw project",
   "contact.submit": "Versturen",
-  "footer.tagline": "Bouw en renovatie",
-  "footer.rights": "Alle rechten voorbehouden",
 
   "why_us.title": "Waarom voor ons kiezen",
   "why_us.reason_1": "Transparante<br>offerte",
   "why_us.reason_2": "Werken<br>in fases",
   "why_us.reason_3": "Foto-updates<br>van het proces",
   "why_us.reason_4": "Kwaliteits-<br>controle",
-  "why_us.reason_5": "Op tijd<br>opgeleverd"
+  "why_us.reason_5": "Op tijd<br>opgeleverd",
+
+  "footer.tagline": "Bouw en renovatie",
+  "footer.rights": "Alle rechten voorbehouden"
 }
