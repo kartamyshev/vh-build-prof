@@ -32,6 +32,15 @@
   "projects.category_2": "Строительство",
   "projects.category_3": "Реконструкция",
 
+  "testimonials.title": "Отзывы клиентов",
+  "testimonials.1.short_text": "Отличная команда! Все сделали в срок и без лишних проблем. Рекомендуем!",
+  "testimonials.1.author": "Мария, Амстердам",
+  "testimonials.2.short_text": "Построили наш дом мечты. Всегда были на связи и помогали с решениями.",
+  "testimonials.2.author": "Алексей, Хилверсюм",
+  
+  "testimonials.3.short_text": "Качество на высоте. Очень довольны результатом!",
+  "testimonials.3.author": "Ирина, Утрехт",
+
   "contact.cta_btn": "Получить смету",
   "contact.whatsapp": "Написать в WhatsApp",
   "contact.heading": "Есть проект?<br>Обсудим.",
@@ -48,7 +57,6 @@
   "why_us.reason_3": "Фотоотчеты<br>процесса",
   "why_us.reason_4": "Контроль<br>качества",
   "why_us.reason_5": "Соблюдение<br>сроков",
-  
   "footer.tagline": "Строительство и ремонт",
   "footer.rights": "Все права защищены"
 }

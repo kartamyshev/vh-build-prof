@@ -49,6 +49,14 @@
   "why_us.reason_4": "Контроль<br>якості",
   "why_us.reason_5": "Дотримання<br>термінів",
 
+  "testimonials.title": "Відгуки клієнтів",
+  "testimonials.1.short_text": "Чудова команда! Все зробили вчасно і без зайвих проблем. Рекомендуємо!",
+  "testimonials.1.author": "Марія, Амстердам",
+  "testimonials.2.short_text": "Побудували наш будинок мрії. Завжди були на зв'язку і допомагали з рішеннями.",
+  "testimonials.2.author": "Олексій, Хілверсюм",
+  "testimonials.3.short_text": "Якість на висоті. Дуже задоволені результатом!",
+  "testimonials.3.author": "Ірина, Утрехт",
+
   "footer.tagline": "Будівництво та ремонт",
   "footer.rights": "Всі права захищені"
 }
