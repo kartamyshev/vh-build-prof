@@ -635,6 +635,21 @@
     border-color: var(--olive);
   }
 
+  .contact-form input:required,
+  .contact-form textarea:required {
+    border-left: 2px solid var(--olive);
+  }
+
+  .contact-form input:required:invalid,
+  .contact-form textarea:required:invalid {
+    border-left-color: var(--olive);
+  }
+
+  .contact-form input:required:valid,
+  .contact-form textarea:required:valid {
+    border-left-color: #6a9e5a;
+  }
+
   .contact-form textarea {
     min-height: 80px;
   }

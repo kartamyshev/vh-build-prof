@@ -23,6 +23,10 @@
   "prices.cta": "Получить точную смету",
 
   "projects.title": "Наши проекты",
+  "projects.filter_by_1": "Все",
+  "projects.filter_by_2": "Ремонт",
+  "projects.filter_by_3": "Строительство",
+  "projects.filter_by_4": "Интерьеры",
   "projects.show": "Смотреть проект →",
   "projects.project_1.title": "Квартира в Амстердаме",
   "projects.project_2.title": "Частный дом в Хилверсюме",

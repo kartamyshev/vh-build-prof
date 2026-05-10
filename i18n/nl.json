@@ -22,7 +22,10 @@
   "prices.price_5.title": "Woningbouw",
   "prices.cta": "Vraag een exacte offerte aan",
 
-  "projects.title": "Onze projecten",
+  "projects.filter_by_1": "Alles",
+  "projects.filter_by_2": "Renovatie",
+  "projects.filter_by_3": "Nieuwbouw",
+  "projects.filter_by_4": "Interieurs",
   "projects.show": "Bekijk project →",
   "projects.project_1.title": "Appartement in Amsterdam",
   "projects.project_2.title": "Woonhuis in Hilversum",

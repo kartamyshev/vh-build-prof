@@ -22,7 +22,10 @@
   "prices.price_5.title": "Будівництво будинку",
   "prices.cta": "Отримати точний кошторис",
 
-  "projects.title": "Наші проєкти",
+  "projects.filter_by_1": "Усі",
+  "projects.filter_by_2": "Ремонт",
+  "projects.filter_by_3": "Будівництво",
+  "projects.filter_by_4": "Інтер'єри",
   "projects.show": "Дивитись проєкт →",
   "projects.project_1.title": "Квартира в Амстердамі",
   "projects.project_2.title": "Приватний будинок у Хілверсюмі",

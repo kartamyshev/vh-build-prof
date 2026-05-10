@@ -22,7 +22,10 @@
   "prices.price_5.title": "House construction",
   "prices.cta": "Get an exact quote",
 
-  "projects.title": "Our projects",
+  "projects.filter_by_1": "All",
+  "projects.filter_by_2": "Renovation",
+  "projects.filter_by_3": "Construction",
+  "projects.filter_by_4": "Interiors",
   "projects.show": "View project →",
   "projects.project_1.title": "Apartment in Amsterdam",
   "projects.project_2.title": "Private house in Hilversum",
